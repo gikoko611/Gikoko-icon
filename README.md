@@ -1,18 +1,15 @@
 # GIKOKO ICON (Gikoko-icon)
 
-Gold Myanmar Kanot (ရွှေပန်းကနုတ်) icon frames for Android.
+Gold Myanmar Kanot (ရွှေပန်းကနုတ်) icon pack for Android.
 
 ## What it does
-- Pick any installed app and pin its icon to the home screen inside a gold Kanot medallion frame.
-- Two icon styles (toggle in-app):
-  - ORIGINAL: the app's own icon kept inside the gold Kanot frame.
-  - KANOT ART: hand-drawn gold glyphs on a dark cyber backing (phone, messages, camera, browser, play, photos, clock, calculator, calendar, settings, files, music, mail, video - other apps get a gold serif letter).
-- Works on any launcher that supports pinning shortcuts (Android 8+) or the legacy install-shortcut broadcast (Android 7). No root needed.
-- 100% programmatic Kotlin UI - no XML layouts, no third-party dependencies. Same gold / Kanot / cyber theme family as G.I KO KO LAUNCHER.
+- Standard Android icon pack (appfilter.xml): launchers that support icon packs (Nova, Lawnchair, Niagara, Apex, Smart, GO) apply it to EVERY icon at once - one tap in launcher settings, no duplicate shortcuts, original icons are replaced directly.
+- Hand-drawn gold kanot glyphs on a dark cyber backing with the gold Kanot medallion frame (corner spiral curls, lotus bud crest, side diamonds). No letter-based icons - only drawn art.
+- 25 themed icons: phone, contacts, messages, WhatsApp, Messenger, Instagram, Facebook, Telegram, X, TikTok, camera, photos, gallery, browser (Chrome/Firefox/Opera), Play Store, YouTube, Gmail, Maps, clock, calculator, calendar, settings, files, music, video.
+- In-app: APPLY button (one-click for launchers exposing a theme intent), themed-app count, full preview grid.
+- Stock Samsung and Pixel launchers do not allow icon packs - that is an Android restriction.
+- 100% programmatic Kotlin UI - no XML layouts for UI, no third-party dependencies. Same gold / Kanot / cyber theme family as G.I KO KO LAUNCHER.
 
 ## Branches
 - dev: working branch, CI builds on every push.
 - main: release-only. Push to main builds a signed APK and publishes a GitHub Release.
-
-## Icon frames
-- Rounded-square double gold rim with corner spiral curls, lotus bud crest, and side diamonds - drawn programmatically in Kotlin.
