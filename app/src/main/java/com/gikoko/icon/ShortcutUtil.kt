@@ -1,6 +1,6 @@
 package com.gikoko.icon
 
-import android.annotation.RequiresApi
+import android.annotation.TargetApi
 import android.content.Context
 import android.content.Intent
 import android.content.pm.ShortcutInfo
@@ -26,7 +26,7 @@ object ShortcutUtil {
         return true
     }
 
-    @RequiresApi(Build.VERSION_CODES.O)
+    @TargetApi(Build.VERSION_CODES.O)
     private fun pinModern(context: Context, app: AppInfo, intent: Intent, bitmap: Bitmap): Boolean {
         val sm = context.getSystemService(ShortcutManager::class.java)
         if (sm == null) return false
