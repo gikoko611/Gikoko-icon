@@ -63,10 +63,10 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          TAG="v0.0.1"
+          TAG="v0.0.2"
           gh release create "$TAG" out/GIKOKO-ICON-release.apk \
             --title "GIKOKO ICON $TAG" \
-            --notes "GIKOKO ICON 0.0.1: gold Myanmar Kanot icon frames. Pick any installed app and pin its framed icon to the home screen. Two styles: ORIGINAL (app icon inside a gold Kanot frame) and KANOT ART (hand-drawn gold kanot glyphs on dark cyber backing). Works on any launcher that supports shortcut pinning, no root needed." \
+            --notes "GIKOKO ICON 0.0.2: gold Myanmar Kanot icon pack. Apply once in your launcher icon pack settings and every icon changes at once - no shortcuts, no duplicates. 25 hand-drawn gold kanot icons (phone, messages, WhatsApp, Instagram, Facebook, Telegram, camera, Chrome, Play Store, YouTube, Gmail, Maps, clock, calculator, calendar, settings, files, music, video and more). Works with Nova, Lawnchair, Niagara, Apex, Smart, GO." \
             --target "$GITHUB_SHA" || true
 
       - name: Post build log on failure

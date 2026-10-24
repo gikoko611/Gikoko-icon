@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <version>1</version>
+    <item drawable="gikoko_phone" />
+    <item drawable="gikoko_contacts" />
+    <item drawable="gikoko_messages" />
+    <item drawable="gikoko_whatsapp" />
+    <item drawable="gikoko_messenger" />
+    <item drawable="gikoko_instagram" />
+    <item drawable="gikoko_facebook" />
+    <item drawable="gikoko_telegram" />
+    <item drawable="gikoko_twitter" />
+    <item drawable="gikoko_tiktok" />
+    <item drawable="gikoko_camera" />
+    <item drawable="gikoko_photos" />
+    <item drawable="gikoko_gallery" />
+    <item drawable="gikoko_browser" />
+    <item drawable="gikoko_play" />
+    <item drawable="gikoko_youtube" />
+    <item drawable="gikoko_gmail" />
+    <item drawable="gikoko_maps" />
+    <item drawable="gikoko_clock" />
+    <item drawable="gikoko_calculator" />
+    <item drawable="gikoko_calendar" />
+    <item drawable="gikoko_settings" />
+    <item drawable="gikoko_files" />
+    <item drawable="gikoko_music" />
+    <item drawable="gikoko_video" />
+</resources>
